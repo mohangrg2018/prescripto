@@ -19,7 +19,10 @@ const Hero = () => {
           </p>
         </div>
         <Button variant="white">
-          <Link to={"/appointment"}>Book appointment</Link>
+          <Link className="flex items-center gap-2" to="#speciality">
+            Book appointment{" "}
+            <img className="w-3" src={assets.arrow_icon} alt="arrow icon" />
+          </Link>
         </Button>
       </div>
       <div>

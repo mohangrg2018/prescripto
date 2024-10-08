@@ -66,3 +66,7 @@
 .mobile__NavMenu a.active li {
   @apply text-primary font-bold;
 }
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
